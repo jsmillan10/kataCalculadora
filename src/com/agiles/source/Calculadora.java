@@ -9,6 +9,8 @@ public class Calculadora {
     public int operar(String str) {
         if (str.isEmpty())
             return 0;
+        else if (str.length()==1)
+            return Integer.parseInt(str);
         else
             return -1;
     }
