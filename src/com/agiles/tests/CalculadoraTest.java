@@ -26,4 +26,10 @@ public class CalculadoraTest {
         int result = calculadora.operar("1");
         assertEquals(1, result);
     }
+
+    @Test
+    public void stringDosNumeros(){
+        int result = calculadora.operar("15");
+        assertEquals(6, result);
+    }
 }
