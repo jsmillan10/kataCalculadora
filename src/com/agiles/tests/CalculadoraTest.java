@@ -29,7 +29,7 @@ public class CalculadoraTest {
 
     @Test
     public void stringDosNumeros(){
-        int result = calculadora.operar("15");
+        int result = calculadora.operar("1,5");
         assertEquals(6, result);
     }
 }
