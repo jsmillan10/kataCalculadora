@@ -20,4 +20,10 @@ public class CalculadoraTest {
         int result = calculadora.operar("");
         assertEquals(0, result);
     }
+
+    @Test
+    public void stringUnNumero(){
+        int result = calculadora.operar("1");
+        assertEquals(1, result);
+    }
 }
